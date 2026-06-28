@@ -79,7 +79,7 @@ st.markdown("""
         margin-bottom: 5px !important;
     }
     </style>
-""", unsafe_allow_index=True)
+""", unsafe_allow_html=True)
 
 # --- MANAJEMEN API KEY SECARA AMAN ---
 API_KEY = st.secrets.get("GEMINI_API_KEY", "")
