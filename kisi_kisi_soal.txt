@@ -1,0 +1,67 @@
+========================================================================
+DOKUMEN KISI-KISI RESMI & STANDARISASI SOAL SKD CAT SEKOLAH KEDINASAN
+========================================================================
+
+[PANDUAN UMUM GENERASI SOAL]
+1. Semua soal TWK dan TIU harus berbasis HOTS (Higher Order Thinking Skills), mengutamakan penalaran, analisis kasus, dan logika, BUKAN sekadar hafalan mentah.
+2. Setiap soal wajib memiliki 5 pilihan jawaban (A, B, C, D, E).
+3. Hindari adanya pilihan jawaban yang terlalu kentara salahnya. Pengecoh (distraktor) harus dibuat masuk akal dan menantang.
+4. Sertakan pembahasan yang logis, sistematis, dan mudah dipahami pada tiap soal.
+
+------------------------------------------------------------------------
+1. TES WAWASAN KEBANGSAAN (TWK)
+------------------------------------------------------------------------
+* Tujuan: Menilai penguasaan pengetahuan dan kemampuan mengimplementasikan nilai-nilai nasionalisme, integritas, bela negara, pilar negara, dan bahasa Indonesia.
+
+* Rincian Materi & Karakteristik Soal:
+  a. Nasionalisme: Soal berupa studi kasus dilematis di era modern. Menguji kemampuan mempertahankan kepentingan nasional dengan tetap menyelaraskan keberagaman. (Bukan hafalan definisi).
+  b. Integritas: Soal berupa situasi di dunia kerja atau sosial yang menguji ketangguhan moral, kejujuran, etika, dan konsistensi antara tindakan dengan nilai prinsip.
+  c. Bela Negara: Soal yang menuntut analisis peran aktif warga negara dalam menghadapi ancaman modern (cyber crime, hoaks, krisis ekonomi, radikalisme) secara konkret.
+  d. Pilar Negara: Analisis mendalam mengenai implementasi nilai Pancasila (fokus pada butir-butir Pancasila), UUD 1945, NKRI, dan Bhinneka Tunggal Ika dalam kehidupan bernegara.
+  e. Bahasa Indonesia: Menentukan gagasan utama, memperbaiki kalimat tidak efektif, ejaan (PUEBI), atau menyimpulkan teks panjang yang berkaitan dengan isu nasional.
+
+* Aturan Penilaian TWK:
+  - Jawaban Benar: Poin 5
+  - Jawaban Salah: Poin 0
+
+------------------------------------------------------------------------
+2. TES INTELIGENSIA UMUM (TIU)
+------------------------------------------------------------------------
+* Tujuan: Menilai kemampuan verbal, numerik, dan figural.
+
+* Rincian Materi & Karakteristik Soal:
+  a. Kemampuan Verbal:
+     - Analogi: Menalar hubungan antar kata secara logis dan spesifik.
+     - Silogisme: Menarik kesimpulan dari dua atau tiga premis (fokus pada variasi premis "Semua", "Sebagian", "Ada", "Jika-Maka").
+     - Analitis: Soal cerita penalaran posisi (urutan duduk, jadwal, peringkat) yang membutuhkan analisis tabel/logika coretan.
+  b. Kemampuan Numerik:
+     - Berhitung: Operasi pecahan, desimal, pangkat, akar yang membutuhkan trik cepat (bukan hitungan kasar panjang).
+     - Deret Angka: Pola larik tunggal, ganda, atau bertingkat yang logis namun menantang.
+     - Perbandingan Kuantitatif: Menentukan hubungan antara dua data (X dan Y) berdasarkan kondisi matematis tertentu.
+     - Soal Cerita: Aplikasi matematika matematika praktis (kecepatan menyusul/berpapasan, kerja bersama-sama, untung-rugi, statistika dasar/rata-rata gabungan, peluang).
+  c. Kemampuan Figural:
+     - Analogi Figural: Menemukan perubahan pola gambar.
+     - Ketidaksamaan Figural: Menentukan satu gambar yang memiliki prinsip berbeda dari gambar lainnya.
+     - Serial Figural: Melanjutkan kelogisan urutan pola gambar selanjutnya.
+
+* Aturan Penilaian TIU:
+  - Jawaban Benar: Poin 5
+  - Jawaban Salah: Poin 0
+
+------------------------------------------------------------------------
+3. TES KARAKTERISTIK PRIBADI (TKP)
+------------------------------------------------------------------------
+* Tujuan: Menilai perilaku, kesiapan mental, dan respon psikologis terhadap situasi kerja dan sosial.
+
+* Rincian Materi & Karakteristik Soal (Wajib berupa studi kasus dunia kerja ASN):
+  a. Pelayanan Publik: Menghadapi komplain masyarakat atau rekan kerja dengan sikap solutif, cepat, ramah, dan tidak egois.
+  b. Jejaring Kerja: Membangun hubungan, bekerja sama, dan berbagi informasi secara efektif dalam tim maupun lintas instansi.
+  c. Sosial Budaya: Menunjukkan keterbukaan, toleransi, dan kebijaksanaan di tengah lingkungan kerja yang majemuk (beda suku/agama/budaya).
+  d. Teknologi Informasi dan Komunikasi (TIK): Respon positif terhadap digitalisasi sistem kerja, otomatisasi proses, dan adaptasi teknologi baru.
+  e. Profesionalisme: Menguji kedisiplinan, integritas kerja, dan kemampuan menuntaskan tugas secara tuntas di bawah tekanan atau godaan gratifikasi.
+  f. Anti Radikalisme: Menolak pemahaman radikal, mendeteksi kecenderungan ekstremisme, dan mengambil tindakan pencegahan yang sesuai dengan SOP hukum negara.
+
+* Aturan Penilaian TKP (PENTING):
+  - Tidak ada jawaban salah (0).
+  - Setiap pilihan (A, B, C, D, E) memiliki bobot nilai dari skala 1 sampai 5 secara acak.
+  - Opsi dengan nilai 5 harus mencerminkan tindakan paling solutif, sesuai SOP, matang secara emosi, dan berdampak jangka panjang.
