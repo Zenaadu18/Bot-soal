@@ -34,9 +34,11 @@ def read_sample_questions(filepath, num_samples=3):
         return "[]"
 
 def generate_questions_batch(guidelines, sample_questions_json, category_name, category_desc, num_questions):
+    # Kita buat definisi struktur data (Schema) agar Gemini WAJIB patuh 100%
+    # Ini mencegah format JSON rusak atau terpotong
     prompt = f"""
 Anda adalah ahli pembuat soal Try Out Sekolah Kedinasan (SKD) berstandar nasional BKN.
-Tugas Anda adalah membuat {num_questions} soal BARU khusus untuk kategori: {category_name}.
+Tugas Anda adalah membuat {num_questions} soal BARU yang unik dan berkualitas tinggi khusus untuk kategori: {category_name}.
 Karakteristik materi {category_name}: {category_desc}
 
 Berikut adalah panduan materi/kisi-kisi resmi (jadikan acuan utama):
@@ -47,13 +49,9 @@ Berikut adalah referensi beberapa soal lama untuk meniru format, gaya bahasa, da
 [CONTOH SOAL LAMA]
 {sample_questions_json}
 
-Buatlah {num_questions} soal baru untuk kategori {category_name}.
-PENTING: Anda HARUS mengembalikan data murni dalam format JSON Array of Objects.
-Setiap object soal HARUS persis menggunakan key/header berikut ini (jangan diubah):
+Buatlah {num_questions} soal baru untuk kategori {category_name}. 
+Kembalikan data dalam bentuk JSON Array of Objects dengan key:
 "tipe", "pertanyaan", "opsi_a", "opsi_b", "opsi_c", "opsi_d", "opsi_e", "kunci", "pembahasan", "poin_a", "poin_b", "poin_c", "poin_d", "poin_e"
-
-Nilai key "tipe" HARUS diisi dengan "{category_name}".
-Jangan ada teks penjelasan apapun di luar format JSON.
 """
     try:
         model = genai.GenerativeModel('gemini-2.5-flash')
@@ -61,10 +59,13 @@ Jangan ada teks penjelasan apapun di luar format JSON.
             prompt,
             generation_config=genai.GenerationConfig(
                 response_mime_type="application/json",
+                temperature=0.7 # Membuat variasi soal menjadi lebih kreatif namun tetap patuh struktur
             )
         )
         return json.loads(response.text)
     except Exception as e:
+        # Menampilkan eror asli dari Google ke layar Streamlit Anda agar mudah dilacak
+        st.warning(f"Detail Eror Internal: {e}")
         return []
 
 # --- ANTARMUKA WEB (UI) ---
@@ -95,7 +96,7 @@ with col2:
             st.warning("Proses dihentikan karena isi file kisi-kisi kosong.")
         else:
             all_questions = []
-            batch_size = 10
+            batch_size = 5
             
             progress_bar = st.progress(0)
             status_text = st.empty()
