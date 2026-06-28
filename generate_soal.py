@@ -130,7 +130,7 @@ Kembalikan data murni dalam format JSON Array of Objects dengan key:
 
 # --- TAMPILAN HEADER ---
 st.title("⚡ CAT Try Out Generator Pro")
-st.markdown("<p style='color: #94a3b8; font-size: 1.1rem;'>Platform cerdas pembuat paket soal ujian SKD Kedinasan berbasis AI secara otomatis, cepat, dan terstandarisasi BKN.</p>", unsafe_allow_index=True)
+st.markdown("<p style='color: #94a3b8; font-size: 1.1rem;'>Platform cerdas pembuat paket soal ujian SKD Kedinasan berbasis AI secara otomatis, cepat, dan terstandarisasi BKN.</p>", unsafe_allow_html=True)
 st.markdown("---")
 
 # --- GRID CARD RINGKASAN STRUKTUR SOAL ---
