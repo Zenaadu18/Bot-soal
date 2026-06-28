@@ -6,8 +6,8 @@ import streamlit as st
 import google.generativeai as genai
 
 # --- CONFIG DASHBOARD UTAMA ---
-st.set_page_config(page_title="CAT Question Generator", page_icon="🤖", layout="wide")
-st.title("🤖 CAT Try Out Generator (Standar SKD Kedinasan)")
+st.set_page_config(page_title="CAT Gen Soal", page_icon="🤖", layout="wide")
+st.title("🤖 CAT Try Out Generator Soal (Standar SKD Kedinasan)")
 st.write("Aplikasi otomatis pembuat 110 paket soal SKD berbasis Google Gemini API.")
 
 # --- MANAJEMEN API KEY SECARA AMAN ---
