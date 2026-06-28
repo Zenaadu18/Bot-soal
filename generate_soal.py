@@ -11,7 +11,8 @@ st.title("🤖 CAT Try Out Generator (Standar SKD Kedinasan)")
 st.write("Aplikasi otomatis pembuat 110 paket soal SKD berbasis Google Gemini API.")
 
 # --- MANAJEMEN API KEY SECARA AMAN ---
-API_KEY = st.secrets.get("GEMINI_API_KEY", "AIzaSyBqJrI2wcqVDPm7gheeSdA4bS_fGRXBGWk")
+# Ambil API Key murni dari Secrets Streamlit (Lebih Aman)
+API_KEY = st.secrets.get("GEMINI_API_KEY", "")
 genai.configure(api_key=API_KEY)
 
 # --- FUNGSI UTAMA ---
