@@ -145,7 +145,7 @@ with m3:
 with m4:
     st.metric(label="Materi TKP", value="45 Soal")
 
-st.markdown("<br>", unsafe_allow_index=True)
+st.markdown("<br>", unsafe_allow_html=True)
 
 # --- KONTROL UTAMA & RESPONSIVE LAYOUT ---
 col1, col2 = st.columns([1, 1.5], gap="large")
